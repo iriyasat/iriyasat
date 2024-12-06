@@ -1,6 +1,6 @@
 # 💫 About Me
 
-🔭 **Currently**: Building **GreenGrid**—a web app for smart agricultural supply chains using GPS & RFID.  
+🔭 **Currently**: Building **GreenGrid**—a web app for smart agricultural supply chains.  
 🤝 **Open to collaborations**: Data analytics and innovative technologies.  
 💡 **Looking for help**: Data visualization and database optimization.  
 🌱 **Learning**: Spanish, programming languages, and web development frameworks.  
