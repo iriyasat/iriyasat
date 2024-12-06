@@ -1,11 +1,11 @@
 # 💫 About Me
 
-🔭 **Currently**: Building **GreenGrid**—a web app for smart agricultural supply chains.  
-🤝 **Open to collaborations**: Data analytics and innovative technologies.  
-💡 **Looking for help**: Data visualization and database optimization.  
-🌱 **Learning**: Spanish, programming languages, and web development frameworks.  
-💬 **Ask me about**: The history of Real Madrid or code problems.  
-⚡ **Fun fact**: I was part of a winning team for an algorithm project!
+🔭 Currently: Building "GreenGrid"—a web app for smart agricultural supply chains.  
+🤝 Open to collaborations: Data analytics and innovative technologies.  
+💡 Looking for help: Data visualization and database optimization.  
+🌱 Learning: Spanish, programming languages, and web development frameworks.  
+💬 Ask me about: The history of Real Madrid or code problems.  
+⚡ Fun fact: I was part of a winning team for an algorithm project!
 
 ## 🌐 Socials:
 [![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/ihriyasat) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/iriyasat) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/ihriyasat) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://twitter.com/ihriyasat)  
