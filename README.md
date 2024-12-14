@@ -9,7 +9,7 @@
 
 ---
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=iriyasat&theme=dark&border_radius=4&date_format=j%20M%5B%20Y%5D&hide_total_contributions=true&hide_current_streak=true&hide_longest_streak=true)](https://git.io/streak-stats)
+[![GitHub Streak](https://streak-stats.demolab.com?user=iriyasat&theme=dark&hide_border=true&locale=bn&date_format=j%20M%5B%20Y%5D&card_width=500&card_height=250&hide_total_contributions=true)](https://git.io/streak-stats)
 ---
 
 ## 🌐 Socials:
