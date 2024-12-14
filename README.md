@@ -8,8 +8,8 @@
 ⚡ **Fun fact**: I was part of a winning team for an algorithm project!
 
 ---
+[![GitHub Streak](https://streak-stats.demolab.com?user=iriyasat&theme=dark&hide_border=true&border_radius=5&locale=bn&date_format=j%20M%5B%20Y%5D&card_width=750&card_height=250&hide_total_contributions=true)](https://streak-stats.demolab.com/?user=iriyasat&theme=dark&hide_border=true&border_radius=5&locale=bn&date_format=j%20M%5B%20Y%5D&card_width=750&card_height=250&hide_total_contributions=true)
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=iriyasat&theme=dark&hide_border=true&locale=bn&date_format=j%20M%5B%20Y%5D&card_width=1000&card_height=500&hide_total_contributions=true)](https://git.io/streak-stats)
 ---
 
 ## 🌐 Socials:
