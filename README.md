@@ -35,6 +35,6 @@
 [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/) [![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)](https://git-scm.com/)  
 
 ## 🤖 AI Tools:
-[![ChatGPT](https://img.shields.io/badge/ChatGPT-%2341B883.svg?style=for-the-badge&logo=openai&logoColor=white)](https://chat.openai.com/) [![Gemini](https://img.shields.io/badge/Gemini-%231DA1F2.svg?style=for-the-badge&logo=ai&logoColor=white)](https://gemini.google.com/app) [![Claude.ai](https://img.shields.io/badge/Claude.ai-%23FF4500.svg?style=for-the-badge&logo=ai&logoColor=white)](https://claude.ai/) [![Deep Seek AI](https://img.shields.io/badge/Deep%20Seek%20AI-%23FF6F61.svg?style=for-the-badge&logo=ai&logoColor=white)](https://deepseek.ai/)  
+[![ChatGPT](https://img.shields.io/badge/ChatGPT-%2341B883.svg?style=for-the-badge&logo=openai&logoColor=white)](https://chat.openai.com/) [![Gemini](https://img.shields.io/badge/Gemini-%231DA1F2.svg?style=for-the-badge&logo=ai&logoColor=white)](https://gemini.google.com/app) [![Claude.ai](https://img.shields.io/badge/Claude.ai-%23FF4500.svg?style=for-the-badge&logo=ai&logoColor=white)](https://claude.ai/) [![Deep Seek AI](https://img.shields.io/badge/Deep%20Seek%20AI-%23FF6F61.svg?style=for-the-badge&logo=ai&logoColor=white)](https://chat.deepseek.com/)  
 
 ---
