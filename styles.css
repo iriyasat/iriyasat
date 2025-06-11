@@ -437,6 +437,13 @@ section {
     gap: 1rem;
 }
 
+/* Center the Design Tools section */
+.skill-category:last-child .skills-list {
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 400px;
+    margin: 0 auto;
+}
+
 .skill-item {
     display: flex;
     align-items: center;
