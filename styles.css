@@ -394,7 +394,7 @@ section {
 
 .skills-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: repeat(4, minmax(0, 1fr));
     gap: 2rem;
     margin-top: 3rem;
 }
@@ -405,6 +405,8 @@ section {
     padding: 2rem;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
 }
 
 .skill-category:hover {
@@ -432,23 +434,16 @@ section {
 }
 
 .skills-list {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    display: flex;
+    flex-direction: column;
     gap: 1rem;
-}
-
-/* Center the Design Tools section */
-.skill-category:last-child .skills-list {
-    grid-template-columns: repeat(2, 1fr);
-    max-width: 400px;
-    margin: 0 auto;
 }
 
 .skill-item {
     display: flex;
     align-items: center;
-    gap: 0.5rem;
-    padding: 0.5rem;
+    gap: 0.8rem;
+    padding: 0.8rem;
     background: var(--bg-primary);
     border-radius: 8px;
     transition: all 0.3s ease;
@@ -467,13 +462,15 @@ section {
 .skill-item i {
     font-size: 1.2rem;
     color: var(--accent-color);
-    transition: color 0.3s ease;
+    min-width: 1.5rem;
+    text-align: center;
 }
 
 .skill-item span {
     color: var(--text-primary);
     font-size: 0.9rem;
     transition: color 0.3s ease;
+    white-space: nowrap;
 }
 
 /* Contact Section */
@@ -658,10 +655,14 @@ footer p {
     }
 
     .skills-grid {
-        grid-template-columns: 1fr;
+        grid-template-columns: minmax(0, 1fr);
     }
 
     .skills-list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .skill-category:last-child .skills-list {
         grid-template-columns: repeat(2, 1fr);
     }
 }
@@ -932,4 +933,10 @@ a, button {
     color: var(--accent-color);
     position: absolute;
     left: 0;
+}
+
+@media (max-width: 1200px) {
+    .skills-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
 } 
