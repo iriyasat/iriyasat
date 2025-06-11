@@ -387,54 +387,86 @@ section {
 }
 
 /* Skills Section */
+.skills {
+    padding: 100px 0;
+    background: var(--bg-primary);
+}
+
 .skills-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    gap: 2.5rem;
-    max-width: var(--container-width);
-    margin: 0 auto;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
 }
 
 .skill-category {
-    background: var(--card-bg);
-    padding: 2.5rem;
-    border-radius: var(--border-radius);
-    border: 1px solid var(--border-color);
+    background: var(--bg-secondary);
+    border-radius: 15px;
+    padding: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
 }
 
-.skill-category h3 {
-    color: var(--text-primary);
-    margin-bottom: 2rem;
+.skill-category:hover {
+    transform: translateY(-5px);
 }
 
-.skill-category ul {
-    list-style: none;
-}
-
-.skill-category li {
+.category-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
     margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid var(--accent-color);
 }
 
-.skill-name {
-    display: block;
-    margin-bottom: 0.75rem;
+.category-header i {
+    font-size: 1.5rem;
+    color: var(--accent-color);
+}
+
+.category-header h3 {
     color: var(--text-primary);
-    font-size: 1.125rem;
+    font-size: 1.3rem;
+    margin: 0;
 }
 
-.skill-bar {
-    width: 100%;
-    height: 8px;
-    background: rgba(255, 255, 255, 0.05);
-    border-radius: 4px;
-    overflow: hidden;
+.skills-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 1rem;
 }
 
-.skill-level {
-    height: 100%;
-    background: linear-gradient(90deg, var(--accent-color), var(--accent-color-dark));
-    border-radius: 4px;
-    transition: width 1s ease-in-out;
+.skill-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem;
+    background: var(--bg-primary);
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.skill-item:hover {
+    background: var(--accent-color);
+    transform: translateX(5px);
+}
+
+.skill-item:hover i,
+.skill-item:hover span {
+    color: var(--bg-primary);
+}
+
+.skill-item i {
+    font-size: 1.2rem;
+    color: var(--accent-color);
+    transition: color 0.3s ease;
+}
+
+.skill-item span {
+    color: var(--text-primary);
+    font-size: 0.9rem;
+    transition: color 0.3s ease;
 }
 
 /* Contact Section */
@@ -616,6 +648,14 @@ footer p {
 
     .additional-experience {
         padding: 1.5rem;
+    }
+
+    .skills-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .skills-list {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
