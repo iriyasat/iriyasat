@@ -1,20 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ibrahim Hasan | Portfolio</title>
-    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90' style='font-family: Arial, sans-serif; font-weight: bold; fill: %2300a8ff;'%3EIH.%3C/text%3E%3C/svg%3E">
+    <link rel="icon"
+        href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90' style='font-family: Arial, sans-serif; font-weight: bold; fill: %2300a8ff;'%3EIH.%3C/text%3E%3C/svg%3E">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <header>
         <nav>
             <div class="nav-brand">
-                <a href="#" class="brand-text" onclick="window.scrollTo({top: 0, behavior: 'smooth'}); return false;">IBRAHIM.</a>
+                <a href="#" class="brand-text"
+                    onclick="window.scrollTo({top: 0, behavior: 'smooth'}); return false;">IBRAHIM.</a>
             </div>
             <ul class="nav-links">
                 <li><a href="#about" class="nav-link">About</a></li>
@@ -22,9 +25,6 @@
                 <li><a href="#experience" class="nav-link">Experience</a></li>
                 <li><a href="#skills" class="nav-link">Skills</a></li>
                 <li><a href="#certifications" class="nav-link">Certifications</a></li>
-                <li><button id="saveContact" class="save-contact-btn">
-                    <i class="fas fa-address-card"></i> Save Contact
-                </button></li>
             </ul>
             <div class="nav-toggle">
                 <div class="bar"></div>
@@ -32,83 +32,81 @@
                 <div class="bar"></div>
             </div>
         </nav>
+        <div class="save-contact-fixed">
+            <button id="saveContact" class="btn-primary">
+                <i class="fas fa-address-card"></i> Save Contact
+            </button>
+        </div>
     </header>
 
     <main>
         <section id="home" class="hero">
             <div class="container">
-                <div class="hero-content" data-aos="fade-up">
+                <div class="hero-content">
                     <div class="profile-image">
                         <img src="ibrahim.jpeg" alt="Ibrahim Hasan">
-                        <div class="profile-overlay"></div>
                     </div>
                     <h1>IBRAHIM HASAN</h1>
                     <h2>Computer Science Student</h2>
                     <div class="contact-info">
-                        <p><i class="fas fa-map-marker-alt"></i> 385/7, Free School Street, Hatirpool, Kalabagan, Dhaka – 1205</p>
+                        <p><i class="fas fa-map-marker-alt"></i> 385/7, Free School Street, Hatirpool, Kalabagan, Dhaka
+                            – 1205</p>
                         <p><i class="fas fa-phone"></i> +8801677932666</p>
+                        <p><i class="fas fa-envelope"></i> ihriyasat@gmail.com</p>
                     </div>
                     <div class="social-links">
-                        <a href="mailto:ihriyasat@gmail.com" class="social-link" data-tooltip="Email" target="_blank"><i class="fas fa-envelope"></i></a>
-                        <a href="https://www.linkedin.com/in/ihriyasat/" class="social-link" data-tooltip="LinkedIn" target="_blank"><i class="fab fa-linkedin"></i></a>
-                        <a href="https://github.com/iriyasat" class="social-link" data-tooltip="GitHub" target="_blank"><i class="fab fa-github"></i></a>
-                        <a href="https://www.facebook.com/ihriyasat" class="social-link" data-tooltip="Facebook" target="_blank"><i class="fab fa-facebook"></i></a>
-                        <a href="https://x.com/IHRiyasat" class="social-link" data-tooltip="X (Twitter)" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="mailto:ihriyasat@gmail.com" class="social-link"><i class="fas fa-envelope"></i></a>
+                        <a href="https://www.linkedin.com/in/ihriyasat/" class="social-link"><i
+                                class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/iriyasat" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="https://www.facebook.com/ihriyasat" class="social-link"><i
+                                class="fab fa-facebook"></i></a>
+                        <a href="https://x.com/IHRiyasat" class="social-link"><i class="fa-brands fa-x-twitter"></i></a>
                     </div>
-                </div>
-            </div>
-            <div class="scroll-indicator">
-                <div class="mouse">
-                    <div class="wheel"></div>
-                </div>
-                <div class="arrow">
-                    <span></span>
-                    <span></span>
-                    <span></span>
                 </div>
             </div>
         </section>
 
         <section id="about" class="about">
-                <div class="container">
-                <h2 class="section-title" data-aos="fade-up">About Me</h2>
-                <div class="about-content" data-aos="fade-up" data-aos-delay="200">
-                    <p>Highly motivated Computer Science student with extensive experience in data analysis, web research, and
-                        software development. Proficient in multiple programming languages and development environments. Skilled in
-                        translating between Bengali, English and Spanish. Detail-oriented professional with excellent project
-                        management capabilities, committed to delivering high-quality work with strong attention to detail.</p>
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+                    <p>Highly motivated Computer Science student with extensive experience in data analysis, web
+                        research, and software development. Proficient in multiple programming languages and development
+                        environments. Skilled in translating between Bengali, English and Spanish. Detail-oriented
+                        professional with excellent project management capabilities, committed to delivering
+                        high-quality work with strong attention to detail.</p>
                 </div>
-                    <div class="about-grid">
-                        <div class="about-item">
-                            <i class="fas fa-graduation-cap"></i>
-                            <h3>Currently</h3>
-                            <p>Studying at Independent University, Bangladesh</p>
-                        </div>
-                        <div class="about-item">
-                            <i class="fas fa-handshake"></i>
-                            <h3>Open to collaborations</h3>
-                            <p>Data analytics and innovative technologies</p>
-                        </div>
-                        <div class="about-item">
-                            <i class="fas fa-lightbulb"></i>
-                            <h3>Looking for help</h3>
-                            <p>Data visualization and database optimization</p>
-                        </div>
-                        <div class="about-item">
-                            <i class="fas fa-seedling"></i>
-                            <h3>Learning</h3>
-                            <p>Spanish, programming languages, and web development frameworks</p>
-                        </div>
-                        <div class="about-item">
-                            <i class="fas fa-comments"></i>
-                            <h3>Ask me about</h3>
-                            <p>The history of Real Madrid or code problems</p>
-                        </div>
-                        <div class="about-item">
-                            <i class="fas fa-bolt"></i>
-                            <h3>Fun fact</h3>
-                            <p>I was part of a winning team for an algorithm project!</p>
-                        </div>
+                <div class="about-grid">
+                    <div class="about-item">
+                        <i class="fas fa-graduation-cap"></i>
+                        <h3>Currently</h3>
+                        <p>Studying at Independent University, Bangladesh</p>
+                    </div>
+                    <div class="about-item">
+                        <i class="fas fa-handshake"></i>
+                        <h3>Open to collaborations</h3>
+                        <p>Data analytics and innovative technologies</p>
+                    </div>
+                    <div class="about-item">
+                        <i class="fas fa-lightbulb"></i>
+                        <h3>Looking for help</h3>
+                        <p>Data visualization and database optimization</p>
+                    </div>
+                    <div class="about-item">
+                        <i class="fas fa-seedling"></i>
+                        <h3>Learning</h3>
+                        <p>Spanish, programming languages, and web development frameworks</p>
+                    </div>
+                    <div class="about-item">
+                        <i class="fas fa-comments"></i>
+                        <h3>Ask me about</h3>
+                        <p>The history of Real Madrid or code problems</p>
+                    </div>
+                    <div class="about-item">
+                        <i class="fas fa-bolt"></i>
+                        <h3>Fun fact</h3>
+                        <p>I was part of a winning team for an algorithm project!</p>
                     </div>
                 </div>
             </div>
@@ -116,8 +114,8 @@
 
         <section id="education" class="education">
             <div class="container">
-                <h2 class="section-title" data-aos="fade-up">Education</h2>
-                <div class="timeline" data-aos="fade-up" data-aos-delay="200">
+                <h2 class="section-title">Education</h2>
+                <div class="timeline">
                     <div class="timeline-item">
                         <div class="timeline-dot"></div>
                         <div class="timeline-content">
@@ -187,9 +185,9 @@
 
         <section id="experience" class="experience">
             <div class="container">
-                <h2 class="section-title" data-aos="fade-up">Professional Experience</h2>
+                <h2 class="section-title">Professional Experience</h2>
                 <div class="experience-grid">
-                    <div class="experience-content" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card experience-content">
                         <div class="experience-header">
                             <h3>Professional Web Research, Data Entry, & Virtual Assistance</h3>
                             <span class="experience-date">2016 - Present</span>
@@ -206,7 +204,7 @@
                         </div>
                     </div>
 
-                    <div class="experience-content" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card experience-content">
                         <div class="experience-header">
                             <h3>Teacher</h3>
                             <span class="experience-date">2022 - Present</span>
@@ -218,7 +216,7 @@
                         </div>
                     </div>
 
-                    <div class="experience-content" data-aos="fade-up" data-aos-delay="300">
+                    <div class="card experience-content">
                         <div class="experience-header">
                             <h3>General Member</h3>
                             <span class="experience-date">2024 - Present</span>
@@ -234,26 +232,32 @@
                         </div>
                     </div>
 
-                    <div class="experience-content" data-aos="fade-up" data-aos-delay="400">
+                    <div class="card experience-content">
                         <div class="experience-header">
                             <h3>Additional Experience</h3>
                         </div>
                         <div class="experience-list">
-                            <div class="experience-list-item"><strong>Data Entry Specialist:</strong> Managed and processed large volumes of data with high accuracy</div>
-                            <div class="experience-list-item"><strong>Web Research Analyst:</strong> Conducted comprehensive data collection and market research</div>
-                            <div class="experience-list-item"><strong>Customer Support/Virtual Assistant:</strong> Provided client services via multiple communication channels</div>
-                            <div class="experience-list-item"><strong>Sales Analyst:</strong> Performed sales data analysis and generated actionable insights</div>
-                            <div class="experience-list-item"><strong>Content Specialist:</strong> Experienced in article writing, translation, and editing</div>
+                            <div class="experience-list-item"><strong>Data Entry Specialist:</strong> Managed and
+                                processed large volumes of data with high accuracy</div>
+                            <div class="experience-list-item"><strong>Web Research Analyst:</strong> Conducted
+                                comprehensive data collection and market research</div>
+                            <div class="experience-list-item"><strong>Customer Support/Virtual Assistant:</strong>
+                                Provided client services via multiple communication channels</div>
+                            <div class="experience-list-item"><strong>Sales Analyst:</strong> Performed sales data
+                                analysis and generated actionable insights</div>
+                            <div class="experience-list-item"><strong>Content Specialist:</strong> Experienced in
+                                article writing, translation, and editing</div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+
         <section id="skills" class="skills">
             <div class="container">
-                <h2 class="section-title" data-aos="fade-up">Technical Skills</h2>
-                <div class="skills-grid" data-aos="fade-up" data-aos-delay="200">
-                    <div class="skill-category">
+                <h2 class="section-title">Technical Skills</h2>
+                <div class="skills-grid">
+                    <div class="card skill-category">
                         <div class="category-header">
                             <i class="fas fa-code"></i>
                             <h3>Programming Languages</h3>
@@ -282,7 +286,7 @@
                         </div>
                     </div>
 
-                    <div class="skill-category">
+                    <div class="card skill-category">
                         <div class="category-header">
                             <i class="fas fa-globe"></i>
                             <h3>Web Development & IDEs</h3>
@@ -343,7 +347,7 @@
                         </div>
                     </div>
 
-                    <div class="skill-category">
+                    <div class="card skill-category">
                         <div class="category-header">
                             <i class="fas fa-palette"></i>
                             <h3>Media & Design</h3>
@@ -354,11 +358,11 @@
                                 <span>Draw.io</span>
                             </div>
                             <div class="skill-item">
-                                <i class="fas fa-pen-fancy" style="color: #1d4ed8;"></i>
+                                <i class="fas fa-pen-fancy"></i>
                                 <span>Adobe Illustrator</span>
                             </div>
                             <div class="skill-item">
-                                <i class="fas fa-image" style="color: #1d4ed8;"></i>
+                                <i class="fas fa-image"></i>
                                 <span>Adobe Photoshop</span>
                             </div>
                             <div class="skill-item">
@@ -376,7 +380,7 @@
                         </div>
                     </div>
 
-                    <div class="skill-category">
+                    <div class="card skill-category">
                         <div class="category-header">
                             <i class="fas fa-file-alt"></i>
                             <h3>Office Tools</h3>
@@ -397,7 +401,7 @@
                         </div>
                     </div>
 
-                    <div class="skill-category">
+                    <div class="card skill-category">
                         <div class="category-header">
                             <i class="fas fa-code-branch"></i>
                             <h3>Version Control</h3>
@@ -414,7 +418,7 @@
                         </div>
                     </div>
 
-                    <div class="skill-category">
+                    <div class="card skill-category">
                         <div class="category-header">
                             <i class="fas fa-robot"></i>
                             <h3>AI Tools</h3>
@@ -444,34 +448,34 @@
 
         <section id="certifications" class="certifications">
             <div class="container">
-                <h2 class="section-title" data-aos="fade-up">Certifications & Achievements</h2>
-                <div class="certifications-grid" data-aos="fade-up" data-aos-delay="200">
-                    <div class="certification-card">
+                <h2 class="section-title">Certifications & Achievements</h2>
+                <div class="certifications-grid">
+                    <div class="card certification-card">
                         <h3>CCNA: Introduction to Networks</h3>
                         <p>Cisco Networking Academy and Independent University, Bangladesh</p>
                         <p class="date">May 2025</p>
                     </div>
-                    <div class="certification-card">
+                    <div class="card certification-card">
                         <h3>Algorithm Project ShowCase Champion</h3>
                         <p>Techfest Spring 2024, IUB</p>
                         <p class="date">April 2024</p>
                     </div>
-                    <div class="certification-card">
+                    <div class="card certification-card">
                         <h3>Workshop on Design Tools</h3>
                         <p>IEEE Computer Society, IUB SBC</p>
                         <p class="date">March 2023</p>
                     </div>
-                    <div class="certification-card">
+                    <div class="card certification-card">
                         <h3>CCNA: Introduction to Cybersecurity</h3>
                         <p>Cisco Network Academy</p>
                         <p class="date">July 2020</p>
                     </div>
-                    <div class="certification-card">
+                    <div class="card certification-card">
                         <h3>Emerging Respiratory Viruses Including COVID-19</h3>
                         <p>World Health Organization</p>
                         <p class="date">June 2020</p>
                     </div>
-                    <div class="certification-card">
+                    <div class="card certification-card">
                         <h3>The Fundamentals of Digital Marketing</h3>
                         <p>Google Digital Garage</p>
                         <p class="date">June 2020</p>
@@ -482,17 +486,17 @@
 
         <section id="languages" class="languages">
             <div class="container">
-                <h2 class="section-title" data-aos="fade-up">Languages</h2>
-                <div class="languages-grid" data-aos="fade-up" data-aos-delay="200">
-                    <div class="language-card">
+                <h2 class="section-title">Languages</h2>
+                <div class="languages-grid">
+                    <div class="card language-card">
                         <h3>Bengali</h3>
                         <p>Native</p>
                     </div>
-                    <div class="language-card">
+                    <div class="card language-card">
                         <h3>English</h3>
                         <p>Fluent</p>
                     </div>
-                    <div class="language-card">
+                    <div class="card language-card">
                         <h3>Spanish</h3>
                         <p>Elementary</p>
                     </div>
@@ -502,25 +506,25 @@
 
         <section id="hobbies" class="hobbies">
             <div class="container">
-                <h2 class="section-title" data-aos="fade-up">Hobbies</h2>
-                <div class="hobbies-grid" data-aos="fade-up" data-aos-delay="200">
-                    <div class="hobby-card">
+                <h2 class="section-title">Hobbies</h2>
+                <div class="hobbies-grid">
+                    <div class="card hobby-card">
                         <i class="fas fa-tv"></i>
                         <h3>Watching TV Shows</h3>
                     </div>
-                    <div class="hobby-card">
+                    <div class="card hobby-card">
                         <i class="fas fa-music"></i>
                         <h3>Listening Music</h3>
                     </div>
-                    <div class="hobby-card">
+                    <div class="card hobby-card">
                         <i class="fas fa-coffee"></i>
                         <h3>Exploring Cafes</h3>
                     </div>
-                    <div class="hobby-card">
+                    <div class="card hobby-card">
                         <i class="fas fa-bicycle"></i>
                         <h3>Cycling</h3>
                     </div>
-                    <div class="hobby-card">
+                    <div class="card hobby-card">
                         <i class="fas fa-futbol"></i>
                         <h3>Supporting Real Madrid</h3>
                     </div>
@@ -531,17 +535,14 @@
 
     <footer>
         <div class="container">
+            <a href="CV.pdf" download="Ibrahim_CV.pdf" class="download-cv-btn">
+                <i class="fas fa-download"></i> Download CV
+            </a>
             <p>&copy; Ibrahim Hasan. All rights reserved.</p>
         </div>
     </footer>
 
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
-        AOS.init({
-            duration: 1000,
-            once: true
-        });
-
         // Mobile menu toggle
         const navToggle = document.querySelector('.nav-toggle');
         const navLinks = document.querySelector('.nav-links');
@@ -573,7 +574,7 @@
 
         // Save Contact Functionality
         const saveContactBtn = document.getElementById('saveContact');
-        
+
         saveContactBtn.addEventListener('click', () => {
             const contactInfo = {
                 name: 'Ibrahim Hasan',
@@ -586,11 +587,9 @@
                 twitter: 'https://x.com/IHRiyasat'
             };
 
-            // Check if device is mobile
             const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
 
             if (isMobile) {
-                // For mobile devices, create a tel: link that opens the native contacts app
                 const contactString = `BEGIN:VCARD
 VERSION:3.0
 FN:${contactInfo.name}
@@ -603,7 +602,6 @@ URL:${contactInfo.facebook}
 URL:${contactInfo.twitter}
 END:VCARD`;
 
-                // Create a temporary link with the vCard data
                 const link = document.createElement('a');
                 link.href = `data:text/vcard;charset=utf-8,${encodeURIComponent(contactString)}`;
                 link.setAttribute('download', 'Ibrahim_Hasan.vcf');
@@ -613,7 +611,6 @@ END:VCARD`;
                 link.click();
                 document.body.removeChild(link);
             } else {
-                // For desktop devices, download the vCard file
                 const vCard = `BEGIN:VCARD
 VERSION:3.0
 FN:${contactInfo.name}
@@ -637,10 +634,9 @@ END:VCARD`;
                 window.URL.revokeObjectURL(url);
             }
 
-            // Visual feedback
             saveContactBtn.classList.add('copied');
             saveContactBtn.innerHTML = '<i class="fas fa-check"></i> Contact Saved';
-            
+
             setTimeout(() => {
                 saveContactBtn.classList.remove('copied');
                 saveContactBtn.innerHTML = '<i class="fas fa-address-card"></i> Save Contact';
@@ -648,4 +644,5 @@ END:VCARD`;
         });
     </script>
 </body>
-</html> 
+
+</html>
